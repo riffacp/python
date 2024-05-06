@@ -1,0 +1,27 @@
+names=['nida','rifa','nasrin','fathima']
+print(names)
+print(len(names))
+print(names[-1])
+roll=[1,2,3,4]
+print(names+roll)
+names[0]=2
+print(names)
+roll.append('river')
+print(roll)
+names.append('ball')
+print(names)
+roll.insert(1,'apple')
+print(roll)
+number=[9,8,7,6]
+roll.extend(number)
+print(roll)
+roll.remove('apple')
+print(roll)
+print(roll[:5])
+digits=[12,13,14,15]
+digits=digits[:2]+digits[1:2]
+print(digits)
+digits.clear()
+print(digits)
+del digits
+print(digits)
