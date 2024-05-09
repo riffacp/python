@@ -1,0 +1,10 @@
+tuple1=(2,3,4,5)
+print(tuple1)
+print(len(tuple1))
+list1=list(tuple1)
+list1.append(6)
+print(list1)
+tuple1=tuple(list1)
+print(tuple1)
+
+type(tuple)
